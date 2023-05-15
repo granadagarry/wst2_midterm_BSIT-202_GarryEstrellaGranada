@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: aquamarine;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.bg-success{
+    text-align: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: silver;
+}
+.K{
+    color: rgb(228, 0, 171);
+}
+a{
+    color: rgb(228, 0, 38);
+    text-decoration: none;
+}
+footer{
+    size: 10rem;
+    background-color: aqua;
+}

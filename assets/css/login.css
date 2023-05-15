@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(242, 132, 29);
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+form{
+    border: 2px solid rgb(153, 19, 19);
+    background-color: rgb(162, 255, 210);
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 15px;
+    width: 370px;
+    height: 400px;
+    margin-top: 10rem;
+    margin-left: 31rem;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+h1{
+    text-align: center;
+    color: rgb(228, 0, 38);
+}
+a{
+    color: rgb(228, 0, 38);
+    text-decoration: none;
+}
+button{
+    color: aqua;
+    background-color: black;
+    font-size: large;
+}
+.invi {
+    display: none;
+}
+
+.error {
+    position: absolute;
+    bottom: 34px;
+    left: 100px;
+    color: red;
+}
+
+.checkbox-error {
+    position: absolute;
+    top: 50px;
+    left: 90px;
+    color: red;
+}
